@@ -5,11 +5,10 @@ golang mqtt服务器，v5版本协议，集群版，目前支持DB集群和直�
 
 #### 使用说明
 
-- corev5 包为核心包
-- 项目基础配置在config/config.toml里面
-- 添加环境变量 SI_CFG_PATH = "配置文件路径" ，如果不配置，则默认使用config/config.toml配置
-- 以package方式 运行 main.go即可
-
+- core 包为核心包
+- 项目基础配置在 core/gcfg/config.toml里面
+- 以package方式 运行 main.go即可 
+`` go run main.go ``
 #### 目前支持的方案
 ##### 1. Mongo集群设计
 ##### 2. Mysql集群设计
